@@ -1,0 +1,535 @@
+# Templates Registry
+# Comprehensive metadata for all templates in /templates directory
+# Each template has been individually verified by reading actual HTML source
+
+templates:
+  # ========================================
+  # COLORSTHEMES COLLECTION (10 templates)
+  # ========================================
+
+  - id: baloon-html
+    name: Balloon
+    collection: colorsthemes
+    tags: [landing, multipurpose, split-sections, bootstrap5]
+    layout: owl-carousel-hero
+    nav: simple-dropdown
+    color: light
+    features: [owl-carousel, split-sections, cta-buttons, social-icons, back-to-top]
+    best_for: [portfolio, corporate, multipurpose, business]
+    description: Multipurpose template with owl carousel hero and alternating half-background sections
+
+  - id: brick-html
+    name: Brick
+    collection: colorsthemes
+    tags: [portfolio, gallery, masonry, bootstrap5]
+    layout: masonry-gallery
+    nav: smooth-scroll-links
+    color: light
+    features: [masonry-grid, lightbox, smooth-scroll, animations, two-gallery-sections]
+    best_for: [portfolio, photography, art-gallery, creative-showcase]
+    description: Portfolio template with two masonry gallery sections and lightbox
+
+  - id: donuts-html
+    name: Donuts
+    collection: colorsthemes
+    tags: [landing, elegant, parallax, bootstrap5]
+    layout: parallax-sections
+    nav: centered-logo-smooth-scroll
+    color: mixed-light-dark
+    features: [parallax-backgrounds, jarallax, cards, lightbox, centered-logo]
+    best_for: [creative, portfolio, elegant-business, showcase]
+    description: Elegant template with centered logo, parallax backgrounds, and card sections
+
+  - id: field-html
+    name: Field
+    collection: colorsthemes
+    tags: [landing, creative, textured, bootstrap5]
+    layout: single-hero-sections
+    nav: simple-dropdown
+    color: light
+    features: [paper-texture, cards, video-embed, lightbox, unique-styling]
+    best_for: [creative-agency, portfolio, artistic-showcase]
+    description: Creative template with unique paper texture background design
+
+  - id: friend-html
+    name: Friend
+    collection: colorsthemes
+    tags: [landing, professional, topbar, bootstrap5]
+    layout: hero-sections
+    nav: topbar-with-social
+    color: light
+    features: [topbar-info, social-icons, cards, lightbox, contact-info]
+    best_for: [corporate, business, professional-services, agency]
+    description: Professional template with information topbar and social icons
+
+  - id: hike-html
+    name: Hike
+    collection: colorsthemes
+    tags: [portfolio, unique, offcanvas, bootstrap5]
+    layout: offcanvas-sidebar
+    nav: left-offcanvas-sidebar
+    color: light
+    features: [offcanvas-navigation, cards, lightbox, unique-layout]
+    best_for: [portfolio, creative-agency, unique-design, personal-site]
+    description: Unique template with left-side offcanvas sidebar navigation
+
+  - id: news-html
+    name: News
+    collection: colorsthemes
+    tags: [blog, news, sidebar, bootstrap5]
+    layout: blog-with-sidebar
+    nav: simple-dropdown
+    color: light
+    features: [sidebar, page-banner, blog-posts, video-embed, categories]
+    best_for: [blog, news-site, magazine, content-platform]
+    description: Blog/news template with sidebar and page title banner
+
+  - id: panorama-html
+    name: Panorama
+    collection: colorsthemes
+    tags: [landing, panoramic, asymmetric, bootstrap5]
+    layout: asymmetric-sections
+    nav: smooth-scroll
+    color: light
+    features: [asymmetric-layout, parallax, smooth-scroll, contact-section]
+    best_for: [portfolio, photography, travel, creative-showcase]
+    description: Panoramic template with asymmetric section layouts and parallax
+
+  - id: sleep-html
+    name: Sleep
+    collection: colorsthemes
+    tags: [landing, minimal, carousel, bootstrap5]
+    layout: carousel-hero-sections
+    nav: simple-dropdown
+    color: light
+    features: [owl-carousel, cards, lightbox, social-icons, minimal-design]
+    best_for: [blog, portfolio, personal-site, lifestyle]
+    description: Minimal template with carousel hero and clean card sections
+
+  - id: surf-html
+    name: Surf
+    collection: colorsthemes
+    tags: [landing, sport, dynamic, bootstrap5]
+    layout: parallax-hero-sections
+    nav: simple-dropdown
+    color: dark-overlay
+    features: [jarallax-parallax, gallery-grid, video-embed, grayscale-hover, skewed-sections]
+    best_for: [sports, outdoor, adventure, lifestyle, active]
+    description: Dynamic sports template with parallax, gallery, video, and skewed design elements
+
+  # ========================================
+  # MDBOOTSTRAP COLLECTION (22 items)
+  # ========================================
+
+  - id: bootstrap-5-admin-template
+    name: Admin Dashboard
+    collection: mdbootstrap
+    tags: [admin, dashboard, material-design, bootstrap5]
+    layout: admin-dashboard
+    nav: collapsible-sidebar-with-topbar
+    color: dark-sidebar-light-content
+    features: [charts, data-tables, sidebar-nav, search, notifications, user-dropdown, dashboard-widgets, breadcrumbs]
+    best_for: [admin-panel, dashboard, backend, data-visualization, cms, analytics]
+    description: Material Design admin dashboard with sidebar, charts, and data management features
+
+  - id: bootstrap-5-blog-template
+    name: Blog Template
+    collection: mdbootstrap
+    tags: [blog, clean, material-design, bootstrap5]
+    layout: jumbotron-with-blog-grid
+    nav: top-navbar-with-social
+    color: light
+    features: [jumbotron-hero, blog-cards, grid-layout, social-icons, post-images]
+    best_for: [blog, news-site, content-platform, article-listing]
+    description: Clean blog template with jumbotron hero and card grid layout
+
+  - id: bootstrap-5-categories-template
+    name: Categories Template
+    collection: mdbootstrap
+    tags: [ecommerce, categories, material-design, bootstrap5]
+    layout: category-grid
+    nav: simple-centered-header
+    color: light
+    features: [category-cards, image-grid, hover-effects, equal-height-cards]
+    best_for: [ecommerce, catalog, product-categories, directory, service-listing]
+    description: Category showcase template with grid layout for browsing categories
+
+  - id: bootstrap-5-coming-soon-template
+    name: Coming Soon
+    collection: mdbootstrap
+    tags: [landing, coming-soon, material-design, bootstrap5]
+    layout: fullscreen-centered
+    nav: top-navbar-with-social
+    color: dark-overlay
+    features: [countdown-timer, newsletter-signup, social-icons, fullscreen-background, time-counter]
+    best_for: [coming-soon, pre-launch, maintenance, under-construction]
+    description: Coming soon page with countdown timer and newsletter subscription
+
+  - id: bootstrap-5-dark-mode
+    name: Dark Mode Demo
+    collection: mdbootstrap
+    tags: [demo, dark-theme, material-design, bootstrap5]
+    layout: multi-section
+    nav: top-navigation
+    color: dark
+    features: [dark-mode-theme, theme-demonstration]
+    best_for: [dark-theme-showcase, theme-demo, modern-design]
+    description: Dark mode demonstration template showcasing dark theme capabilities
+
+  - id: bootstrap-5-full-carousel-cover
+    name: Full Carousel Cover
+    collection: mdbootstrap
+    tags: [landing, hero, carousel, material-design, bootstrap5]
+    layout: fullscreen-carousel
+    nav: overlay-navigation
+    color: dynamic-overlay
+    features: [fullscreen-carousel, auto-play-slider, navigation-arrows, indicators, text-overlay, cta-buttons]
+    best_for: [landing, portfolio-homepage, photo-gallery, promotional-site]
+    description: Fullscreen carousel cover page with auto-playing slideshow
+
+  - id: bootstrap-5-full-image-cover
+    name: Full Image Cover
+    collection: mdbootstrap
+    tags: [landing, hero, image, material-design, bootstrap5]
+    layout: fullscreen-hero
+    nav: overlay-navigation
+    color: image-overlay
+    features: [fullscreen-image, centered-cta, text-overlay, scroll-indicator, parallax-support]
+    best_for: [landing, splash-page, product-launch, dramatic-entry]
+    description: Fullscreen single hero image cover with centered call-to-action
+
+  - id: bootstrap-5-full-video-cover
+    name: Full Video Cover
+    collection: mdbootstrap
+    tags: [landing, hero, video, material-design, bootstrap5]
+    layout: fullscreen-video-background
+    nav: overlay-navigation
+    color: video-overlay
+    features: [fullscreen-video, auto-play-loop, video-controls, text-overlay, cta, fallback-image, mobile-optimized]
+    best_for: [landing, creative-portfolio, brand-showcase, event-page, modern-landing]
+    description: Fullscreen background video cover with auto-playing looped video
+
+  - id: bootstrap-5-half-carousel-cover
+    name: Half Carousel Cover
+    collection: mdbootstrap
+    tags: [landing, split-screen, carousel, material-design, bootstrap5]
+    layout: split-screen-carousel
+    nav: side-panel
+    color: split-design
+    features: [50-50-split-layout, image-carousel, content-panel, responsive-stacking, carousel-controls]
+    best_for: [login-with-imagery, signup-page, contact-form, dual-content]
+    description: Split-screen template with carousel on one side and content panel on the other
+
+  - id: bootstrap-5-half-video-cover
+    name: Half Video Cover
+    collection: mdbootstrap
+    tags: [landing, split-screen, video, material-design, bootstrap5]
+    layout: split-screen-video
+    nav: side-panel
+    color: split-design
+    features: [50-50-split-layout, background-video, content-panel, video-auto-play, modern-asymmetric]
+    best_for: [registration, product-intro, app-landing, creative-portfolio]
+    description: Split-screen template with video background and content/CTA panel
+
+  - id: bootstrap-5-jumbotron-template
+    name: Jumbotron Template
+    collection: mdbootstrap
+    tags: [landing, jumbotron, material-design, bootstrap5]
+    layout: jumbotron-hero-sections
+    nav: top-navbar-with-social
+    color: gradient-light
+    features: [large-jumbotron, prominent-cta, feature-sections, card-content, star-rating]
+    best_for: [marketing, SaaS-homepage, product-landing, startup-page]
+    description: Classic jumbotron hero template with prominent CTA and feature sections
+
+  - id: bootstrap-5-login-cover
+    name: Login Cover
+    collection: mdbootstrap
+    tags: [authentication, login, material-design, bootstrap5]
+    layout: fullscreen-centered-form
+    nav: minimal-top-dark
+    color: dark-overlay
+    features: [login-form, fullscreen-background, centered-form, email-password-inputs, dark-theme-form]
+    best_for: [authentication, login-page, app-entry, signin]
+    description: Fullscreen login page with background image and centered login form
+
+  - id: bootstrap-5-magazine-template
+    name: Magazine Template
+    collection: mdbootstrap
+    tags: [blog, magazine, editorial, material-design, bootstrap5]
+    layout: magazine-grid
+    nav: top-navbar-with-social
+    color: light
+    features: [featured-story-hero, multi-column-articles, mixed-content-layout, image-heavy, editorial-typography, social-sharing]
+    best_for: [magazine, news-website, editorial-content, feature-articles]
+    description: Magazine-style template with featured content and editorial grid layout
+
+  - id: bootstrap-5-one-column-template
+    name: One Column Email
+    collection: mdbootstrap
+    tags: [email, newsletter, single-column, material-design, bootstrap5]
+    layout: single-column-email
+    nav: email-header
+    color: light
+    features: [email-optimized, table-based-layout, 590px-width, responsive-email, cta-buttons, social-footer, unsubscribe]
+    best_for: [email-newsletter, promotional-email, announcement, transactional-email]
+    description: Single-column email template optimized for newsletters and promotions
+
+  - id: bootstrap-5-two-columns-template
+    name: Two Columns Email
+    collection: mdbootstrap
+    tags: [email, newsletter, two-column, material-design, bootstrap5]
+    layout: two-column-email
+    nav: email-header
+    color: light
+    features: [email-optimized, two-column-grid, product-cards, responsive-stacking, cta-buttons, social-footer]
+    best_for: [product-showcase-email, comparison-email, feature-highlights, ecommerce-promotion]
+    description: Two-column email template for product showcases and comparisons
+
+  - id: bootstrap-5-three-columns-template
+    name: Three Columns Email
+    collection: mdbootstrap
+    tags: [email, newsletter, three-column, material-design, bootstrap5]
+    layout: three-column-email
+    nav: email-header
+    color: light
+    features: [email-optimized, three-column-grid, product-catalog, responsive-mobile-stacking, image-galleries]
+    best_for: [product-catalog-email, content-roundup, feature-showcase, multi-item-promotion]
+    description: Three-column email template for product catalogs and multi-item showcases
+
+  - id: bootstrap-5-post-template
+    name: Post Template
+    collection: mdbootstrap
+    tags: [blog, article, single-post, material-design, bootstrap5]
+    layout: single-blog-post
+    nav: top-navbar-with-breadcrumbs
+    color: light
+    features: [article-header, featured-image, reading-typography, author-info, related-posts, social-sharing, comments, sidebar-widgets]
+    best_for: [blog-post, article-detail, news-story, long-form-content]
+    description: Single blog post template with optimized reading experience
+
+  - id: bootstrap-5-pricing-template
+    name: Pricing Template
+    collection: mdbootstrap
+    tags: [pricing, saas, subscription, material-design, bootstrap5]
+    layout: pricing-comparison
+    nav: top-navbar-with-social
+    color: light
+    features: [pricing-cards, feature-comparison, cta-buttons, tiered-pricing, star-rating]
+    best_for: [SaaS-pricing, subscription-page, product-pricing, plan-comparison]
+    description: Pricing page template with comparison tables and tiered plans
+
+  - id: bootstrap-fluent-design
+    name: Fluent Design System
+    collection: mdbootstrap
+    tags: [ui-kit, components, fluent-design, bootstrap5]
+    layout: component-library
+    nav: comprehensive-with-glass-effect
+    color: fluent-modern
+    features: [fluent-design-system, acrylic-glass-effects, depth-layering, modern-typography, smooth-animations, component-showcase]
+    best_for: [ui-kit, microsoft-style-interface, modern-web-app, saas-product]
+    description: Comprehensive Fluent Design System component library with Microsoft-inspired aesthetics
+
+  - id: mdb-ui-kit
+    name: MDB UI Kit
+    collection: mdbootstrap
+    tags: [ui-kit, material-design, components, bootstrap5]
+    layout: component-showcase
+    nav: fixed-top-dropdown
+    color: material-design-palette
+    features: [material-design-components, navigation-buttons-forms-cards, modals-dropdowns, tables-lists, interactive-examples]
+    best_for: [ui-kit-demo, component-library, design-system, starter-template]
+    description: Complete Material Design Bootstrap UI Kit with all components
+
+  # Email Newsletter Templates (standalone files)
+
+  - id: blog-stories
+    name: Blog Stories Email
+    collection: mdbootstrap
+    tags: [email, newsletter, blog, material-design]
+    layout: email-blog-stories
+    nav: email-header-with-categories
+    color: light
+    features: [multiple-blog-previews, 50-50-image-text, read-more-ctas, referral-section, product-recommendations]
+    best_for: [blog-newsletter, content-roundup, weekly-digest, story-collection]
+    description: Email newsletter template for blog stories and content roundups
+
+  - id: few-big-news
+    name: Few Big News Email
+    collection: mdbootstrap
+    tags: [email, newsletter, featured, material-design]
+    layout: email-featured-items
+    nav: simple-email-header
+    color: light
+    features: [large-featured-items, full-width-images, prominent-headlines, cta-per-item, minimal-text]
+    best_for: [product-launch-email, major-announcement, featured-promotion, highlight-newsletter]
+    description: Email template for featuring few large important news or products
+
+  - id: multiple-news
+    name: Multiple News Email
+    collection: mdbootstrap
+    tags: [email, newsletter, multi-story, material-design]
+    layout: email-multi-story
+    nav: email-header-with-menu
+    color: light
+    features: [multi-story-layout, mixed-content-blocks, image-text-pairs, invite-section, product-grid, two-column-products]
+    best_for: [news-roundup, multi-topic-newsletter, ecommerce-email, content-digest]
+    description: Email template for multiple news stories and diverse content
+
+  - id: multiple-products
+    name: Multiple Products Email
+    collection: mdbootstrap
+    tags: [email, newsletter, ecommerce, material-design]
+    layout: email-product-grid
+    nav: email-header
+    color: light
+    features: [3-column-product-grid, product-images-titles, multiple-rows, missed-it-section, category-organization]
+    best_for: [ecommerce-product-email, catalog-email, sale-announcement, product-collection]
+    description: Email template for showcasing multiple products in grid layout
+
+  - id: plain-text
+    name: Plain Text Email
+    collection: mdbootstrap
+    tags: [email, newsletter, text-focused, material-design]
+    layout: email-text-focused
+    nav: simple-email-header
+    color: minimal
+    features: [text-heavy, minimal-images, clean-typography, simple-cta, high-readability, accessibility-focused]
+    best_for: [text-newsletter, announcement, personal-message, accessible-email]
+    description: Text-focused email template with minimal styling and high readability
+
+  - id: single-news
+    name: Single News Email
+    collection: mdbootstrap
+    tags: [email, newsletter, focused, material-design]
+    layout: email-single-focus
+    nav: centered-email-header
+    color: light
+    features: [single-featured-item, large-hero-image, focused-message, clear-single-cta, minimal-distractions]
+    best_for: [single-product-promotion, focused-announcement, important-update, event-invitation]
+    description: Email template focused on single story or product with clear CTA
+
+  # ========================================
+  # STARTBOOTSTRAP COLLECTION (10 templates)
+  # ========================================
+
+  - id: startbootstrap-agency
+    name: Agency
+    collection: startbootstrap
+    tags: [landing, professional, agency, portfolio, bootstrap5]
+    layout: single-page-scrollspy
+    nav: fixed-dark-transparent
+    color: blue-professional
+    features: [hero-masthead, services-icons, portfolio-grid-modals, timeline, team-profiles, client-logos, contact-form, smooth-scrolling]
+    best_for: [creative-agency, marketing-firm, business-consultancy, freelance-portfolio, corporate-website, professional-services]
+    description: Professional agency template with portfolio, timeline, team, and contact sections
+
+  - id: startbootstrap-bare
+    name: Bare
+    collection: startbootstrap
+    tags: [starter, minimal, boilerplate, bootstrap5]
+    layout: minimal-starter
+    nav: standard-dark-navbar
+    color: bootstrap-default
+    features: [basic-navbar-dropdown, container-layout, bootstrap-5-framework, minimal-css-js, clean-slate]
+    best_for: [starter-template, custom-project, learning-bootstrap, quick-prototype, minimal-website, development-boilerplate]
+    description: Minimal bare-bones starter template for custom Bootstrap projects
+
+  - id: startbootstrap-clean-blog
+    name: Clean Blog
+    collection: startbootstrap
+    tags: [blog, jekyll, clean, multi-page, bootstrap5]
+    layout: multi-page-blog-jekyll
+    nav: fixed-transparent-solid
+    color: clean-minimal
+    features: [jekyll-static-site, blog-post-listings, post-metadata, header-images, responsive-nav, contact-form, about-page, posts-archive, syntax-highlighting, seo-optimized]
+    best_for: [personal-blog, professional-blog, tech-blog, content-website, writers, authors, static-site]
+    description: Clean multi-page blog template with Jekyll static site generator
+
+  - id: startbootstrap-creative
+    name: Creative
+    collection: startbootstrap
+    tags: [landing, creative, colorful, portfolio, bootstrap5]
+    layout: single-page-scrollspy
+    nav: fixed-light-scroll
+    color: vibrant-orange
+    features: [fullscreen-hero, services-icons, portfolio-lightbox, contact-form, smooth-scrolling, bootstrap-icons, call-to-action]
+    best_for: [creative-portfolio, photographer, designer, artist, startup, creative-agency, product-launch]
+    description: Vibrant creative template with portfolio lightbox and colorful design
+
+  - id: startbootstrap-grayscale
+    name: Grayscale
+    collection: startbootstrap
+    tags: [landing, minimal, monochrome, portfolio, bootstrap5]
+    layout: single-page-scrollspy
+    nav: fixed-transparent
+    color: grayscale-monochrome
+    features: [fullscreen-hero, projects-section, email-signup, contact-cards, social-links, google-maps, smooth-scrolling, font-awesome]
+    best_for: [personal-portfolio, minimalist-website, app-landing, one-page-resume, photography-portfolio, modern-business]
+    description: Elegant grayscale single-page template with monochromatic design
+
+  - id: startbootstrap-landing-page
+    name: Landing Page
+    collection: startbootstrap
+    tags: [landing, marketing, lead-generation, bootstrap5]
+    layout: marketing-landing
+    nav: static-light-top
+    color: blue-professional
+    features: [hero-email-signup, icon-features-grid, image-showcases, testimonials, call-to-action, email-forms, social-links, bootstrap-icons]
+    best_for: [product-landing, SaaS-application, email-list-building, lead-generation, marketing-campaign, app-launch, service-promotion]
+    description: Classic marketing landing page with email capture and testimonials
+
+  - id: startbootstrap-personal
+    name: Personal
+    collection: startbootstrap
+    tags: [portfolio, personal, resume, multi-page, bootstrap5]
+    layout: multi-page-portfolio
+    nav: standard-light-navbar
+    color: gradient-blue-purple
+    features: [profile-picture-svg-dots, hero-cta-buttons, multi-page-structure, about-social-links, modern-gradients, professional-branding]
+    best_for: [personal-portfolio, resume-website, job-seeker, freelancer, professional-profile, personal-branding, career-portfolio]
+    description: Modern personal portfolio and resume template with gradient accents
+
+  - id: startbootstrap-sb-admin-2
+    name: SB Admin 2
+    collection: startbootstrap
+    tags: [admin, dashboard, data-visualization, bootstrap4]
+    layout: admin-dashboard-sidebar
+    nav: collapsible-sidebar-top-navbar
+    color: blue-gradient-professional
+    features: [collapsible-sidebar-accordion, top-navbar-search-dropdown, dashboard-stat-cards, chartjs-integration, progress-bars, project-tracking, color-palette, data-tables, alerts, message-center, user-dropdown, responsive-toggle, modals]
+    best_for: [admin-dashboard, backend-interface, data-management, analytics-platform, SaaS-admin, business-intelligence, application-backend]
+    description: Comprehensive admin dashboard with charts, tables, and full feature set
+
+  - id: startbootstrap-sb-admin
+    name: SB Admin
+    collection: startbootstrap
+    tags: [admin, dashboard, simple, modern, bootstrap5]
+    layout: admin-dashboard-sidebar
+    nav: dark-sidebar-top-navbar
+    color: modern-professional
+    features: [dark-collapsible-sidebar, top-navbar-search, dashboard-stat-cards, chartjs-charts, datatables, breadcrumb-nav, nested-menus, user-dropdown, responsive-design]
+    best_for: [web-app-dashboard, admin-panel, data-visualization, content-management, analytics-dashboard, SaaS-backend, business-tools]
+    description: Modern simple admin dashboard with dark sidebar and clean layout
+
+  - id: startbootstrap-stylish-portfolio
+    name: Stylish Portfolio
+    collection: startbootstrap
+    tags: [portfolio, elegant, sidebar-menu, unique, bootstrap5]
+    layout: single-page-sidebar-overlay
+    nav: toggle-sidebar-menu
+    color: dark-elegant
+    features: [toggle-sidebar-navigation, fullscreen-hero, services-circular-icons, portfolio-grid-hover, google-maps, callout-sections, social-footer, scroll-to-top, smooth-scrolling, simple-line-icons]
+    best_for: [creative-portfolio, personal-website, design-portfolio, photography-website, unique-navigation, small-business, freelancer-portfolio]
+    description: Stylish portfolio with unique toggle sidebar overlay navigation
+
+# ========================================
+# METADATA SUMMARY
+# ========================================
+# Total templates: 42
+# - ColorsThemes: 10 (landing pages, portfolios, blogs)
+# - MDBootstrap: 22 (admin, blog, email, hero covers, magazine)
+# - StartBootstrap: 10 (agency, portfolio, blog, admin, landing)
+#
+# All templates verified by reading actual HTML source code
+# Last updated: 2025-11-05
