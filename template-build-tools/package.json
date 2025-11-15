@@ -1,0 +1,13 @@
+{
+  "name": "icon-cms-template-compiler",
+  "version": "1.0.0",
+  "description": "Build tools for compiling icon-cms templates",
+  "scripts": {
+    "build": "node compile-templates.js",
+    "clean": "node compile-templates.js --clean"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "glob": "^10.3.10"
+  }
+}
