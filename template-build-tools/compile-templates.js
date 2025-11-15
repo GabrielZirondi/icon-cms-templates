@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 const { glob } = require('glob');
 
-const TEMPLATES_ROOT = process.argv[2] || '..';
 const isClean = process.argv.includes('--clean');
+const TEMPLATES_ROOT = isClean ? (process.argv[2] === '--clean' ? '..' : process.argv[2] || '..') : (process.argv[2] || '..');
 
 /**
  * Compile SCSS to CSS
